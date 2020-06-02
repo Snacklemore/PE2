@@ -17,7 +17,7 @@ class NumberFormat {
 public:
     virtual std::string format(Rational num) = 0;
     virtual Rational parse(std::string val) = 0;
-    virtual std::string toString() = 0;
+   // virtual std::string toString() = 0;
     std::string getForm()
     {
         return form;
